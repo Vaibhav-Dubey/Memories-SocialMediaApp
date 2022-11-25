@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({limit:"30mb", extended:true}))
 
 app.use(cors());
 app.use('/posts',postsRoutes);
-const CONNECTION_URL = 'mongodb+srv://VaibhavAdmin:KF5AvMRoU07kgKJZ@cluster0.gobid00.mongodb.net/?retryWrites=true&w=majority'
+const CONNECTION_URL = ''
 
 const PORT   =  process.env.PORT || 5000 ; 
 
